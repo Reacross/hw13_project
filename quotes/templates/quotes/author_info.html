@@ -1,0 +1,10 @@
+{% extends 'quotes/base.html' %}
+
+{% block content %}
+    <div class="container mt-3" >
+        <h2>{{ author.fullname }}</h2>
+    </div>
+    <div class="container mt-3" >
+        <p>{{author.description}}</p>
+    </div>
+{% endblock %}
